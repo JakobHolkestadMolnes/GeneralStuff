@@ -6,7 +6,7 @@ public class Main extends JavaPlugin {
     McLogger log = new McLogger();
     @Override
     public void onEnable() {
-       log.info("UwU enabled!");
+       log.info("GeneralStuff enabled!");
         getServer().getPluginManager().registerEvents(new EventListeners(),this);
 
         log.info("Enabling uwu...");
@@ -27,6 +27,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onDisable() {
-        getLogger().info("UwU disabled!");
+        getLogger().info("GeneralStuff disabled!");
+
     }
 }

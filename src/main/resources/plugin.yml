@@ -1,6 +1,6 @@
 name: UwU
 version: 1.0
-main: no.dirik.UwU.Main
+main: no.dirik.GeneralStuff.Main
 api-version: 1.18
 
 commands:
@@ -23,13 +23,3 @@ commands:
     description: Sets a random pet name to your pet
     usage: /randompetnames
     permission: UwU.RandomPetNames
-
-  alltamedstandup:
-    description: Makes all tamed animals  stand
-    usage: /alltamedstandup
-    permission: UwU.alltamedstandup
-
-  teleportalltamed:
-    description: Teleports all tamed animals to you
-    usage: /teleportalltamed
-    permission: UwU.teleportalltamed
