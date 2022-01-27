@@ -21,11 +21,7 @@ public class Main extends JavaPlugin {
         log.info("Enabling Random pet name...");
         this.getCommand("randompetnames").setExecutor(new CommandSetPetNames());
 
-        log.info("Enabling all stand up...");
-        this.getCommand("alltamedstandup").setExecutor(new CommandAllStandUp());
 
-        log.info("Enabling teleport all...");
-        this.getCommand("teleportalltamed").setExecutor(new CommandTeleportAllTamed());
         log.info("Enabled everything!!!");
     }
 
