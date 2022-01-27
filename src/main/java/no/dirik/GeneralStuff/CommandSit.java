@@ -1,14 +1,10 @@
-package no.dirik.UwU;
+package no.dirik.GeneralStuff;
 
-import org.bukkit.Chunk;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.*;
-import org.bukkit.inventory.ItemStack;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class CommandSit implements CommandExecutor {

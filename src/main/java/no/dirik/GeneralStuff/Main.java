@@ -1,8 +1,6 @@
-package no.dirik.UwU;
+package no.dirik.GeneralStuff;
 
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.logging.Logger;
 
 public class Main extends JavaPlugin {
     McLogger log = new McLogger();

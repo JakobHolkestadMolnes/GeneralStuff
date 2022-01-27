@@ -1,4 +1,4 @@
-package no.dirik.UwU;
+package no.dirik.GeneralStuff;
 
 import org.bukkit.entity.*;
 

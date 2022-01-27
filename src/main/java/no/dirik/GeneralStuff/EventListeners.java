@@ -1,13 +1,10 @@
-package no.dirik.UwU;
+package no.dirik.GeneralStuff;
 
 import org.bukkit.Material;
-import org.bukkit.entity.Entity;
-import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public class EventListeners implements Listener {
