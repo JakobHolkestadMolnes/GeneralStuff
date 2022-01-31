@@ -8,7 +8,11 @@ import org.bukkit.entity.Player;
 
 
 import java.util.ArrayList;
-
+/**
+ * @author Jakob Holkestad Molnes
+ *
+ * This command gives tamed wolves and cats a random name from a list of names.
+ */
 public class CommandSetPetNames implements CommandExecutor {
         @Override
         public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

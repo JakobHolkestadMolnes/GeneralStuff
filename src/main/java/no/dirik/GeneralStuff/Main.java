@@ -2,6 +2,10 @@ package no.dirik.GeneralStuff;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
+/**
+ * @author Jakob Holkestad Molnes
+ * This class is the main class of the plugin.
+ */
 public class Main extends JavaPlugin {
     McLogger log = new McLogger();
     @Override

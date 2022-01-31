@@ -6,7 +6,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.*;
 
 import java.util.ArrayList;
-
+/**
+ * @author Jakob Holkestad Molnes
+ *
+ *  This command is just to make all the tamed mobs sit down.
+ */
 public class CommandSit implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

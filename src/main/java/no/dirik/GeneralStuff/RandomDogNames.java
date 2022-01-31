@@ -1,9 +1,21 @@
 package no.dirik.GeneralStuff;
 
+/**
+ * @author Jakob Holkestad Molnes
+ *
+ *        This class is used to store the names of the dogs.
+ */
 public class RandomDogNames {
+    /**
+     * constructor for the class. (does nothing)
+     */
     public RandomDogNames() {
 
     }
+
+    /**
+     * List of random dog names.
+     */
     public static String[] names = {
 
             "Shelby",
@@ -94,6 +106,11 @@ public class RandomDogNames {
             "Gizmo",
             "Allie",
             "Annie"};
+
+    /**
+     * Returns the dog names.
+     * @return String[] the dog names.
+     */
     public  String[] getNames() {
         return names;
     }

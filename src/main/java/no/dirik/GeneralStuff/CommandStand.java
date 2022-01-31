@@ -9,6 +9,11 @@ import org.bukkit.entity.Sittable;
 
 import java.util.ArrayList;
 
+/**
+ * @author Jakob Holkestad Molnes
+ *
+ * This command is just to make all the tamed mobs stand up.
+ */
 public class CommandStand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
