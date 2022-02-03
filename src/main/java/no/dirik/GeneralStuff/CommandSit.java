@@ -24,7 +24,7 @@ public class CommandSit implements CommandExecutor {
                     ((Sittable) mob).setSitting(true);
                 }
                 else {
-                    player.sendMessage("§c" + mob.getName() + " is already sitting.");
+                    player.sendMessage("§c" + mob.getName() + " is already sitting!");
                 }
             }
         }
