@@ -48,7 +48,9 @@ jobs:
             java-version: '17'
         - run: mvn -B package --file pom.xml -DskipTests
         - run: mkdir staging && cp target/*.jar staging
-        - uses: actions/upload-artifact@v1
+        - name: Upload release binaries
+          uses: alexellis/upload-assets@0.2.2
+          env:
+            GITHUB_TOKEN: ${{ github.token }}
           with:
-            name: Package
-            path: staging
+            asset_paths: '["./staging/*.jar"]'
