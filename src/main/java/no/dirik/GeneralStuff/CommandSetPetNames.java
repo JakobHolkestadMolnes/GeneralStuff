@@ -6,30 +6,36 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.TextComponent;
 
 import java.util.ArrayList;
+
 /**
  * @author Jakob Holkestad Molnes
  *
- * This command gives tamed wolves and cats a random name from a list of names.
+ *         This command gives tamed wolves and cats a random name from a list of
+ *         names.
  */
 public class CommandSetPetNames implements CommandExecutor {
-        @Override
-        public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-            String[] names = new RandomDogNames().getNames();
+    @Override
+    public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        String[] names = new RandomDogNames().getNames();
 
-            if (sender instanceof Player player) {
-                GetTamedEntities getTamedEntities = new GetTamedEntities(player);
+        if (sender instanceof Player player) {
+            GetTamedEntities getTamedEntities = new GetTamedEntities(player);
 
-                ArrayList<Entity> entities = getTamedEntities.getTamedEntities();
+            ArrayList<Entity> entities = getTamedEntities.getTamedEntities();
 
-                for (Entity mob : entities) {
+            for (Entity mob : entities) {
+                String randomName = (names[(int) (Math.random() * names.length)]);
+                TextComponent name = Component.text(randomName);
 
-                    mob.setCustomName(names[(int) (Math.random() * names.length)]);
-                    mob.setCustomNameVisible(true);
-                }
+                mob.customName(name);
+                mob.setCustomNameVisible(true);
             }
-            return true;
         }
-
+        return true;
     }
+
+}
