@@ -1,6 +1,7 @@
 package no.dirik.GeneralStuff;
 
 import org.bukkit.Material;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -10,11 +11,13 @@ import org.bukkit.inventory.ItemStack;
 /**
  * @author Jakob Holkestad Molnes
  *
- *        This class is used to listen for events in the server.
+ *         This class is used to listen for events in the server.
  */
 public class EventListeners implements Listener {
     /**
-     * This method is used to listen for when a player joins the server. Gives the user a stick.
+     * This method is used to listen for when a player joins the server. Gives the
+     * user a stick.
+     * 
      * @param event The event that is being listened for.
      */
     @EventHandler

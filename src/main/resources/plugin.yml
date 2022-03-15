@@ -1,5 +1,5 @@
 name: GeneralStuff
-version: 1.1
+version: 1.1.3
 main: no.dirik.GeneralStuff.Main
 api-version: 1.18
 
@@ -7,19 +7,19 @@ commands:
   uwu:
     description: UwU
     usage: /uwu
-    permission: UwU.uwu
+    permission: GeneralStuff.uwu
 
   sit:
     description: Makes all tamed animals in a 10x10x10 area sit
     usage: /sit
-    permission: UwU.sit
+    permission: GeneralStuff.sit
 
   stand:
     description: Makes all tamed animals in a 10x10x10 area stand
     usage: /stand
-    permission: UwU.stand
+    permission: GeneralStuff.stand
 
   randompetnames:
     description: Sets a random pet name to your pet
     usage: /randompetnames
-    permission: UwU.RandomPetNames
+    permission: GeneralStuff.RandomPetNames
