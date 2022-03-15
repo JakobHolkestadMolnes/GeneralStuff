@@ -29,6 +29,7 @@ public class CommandSetPetNames implements CommandExecutor {
 
             for (Entity mob : entities) {
                 String randomName = (names[(int) (Math.random() * names.length)]);
+
                 TextComponent name = Component.text(randomName);
 
                 mob.customName(name);
