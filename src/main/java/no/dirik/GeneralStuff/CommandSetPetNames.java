@@ -43,7 +43,7 @@ public class CommandSetPetNames implements CommandExecutor {
 
                 final TextComponent name = Component.text(randomName)
                 .color(randomColor)
-                    .append(Component.text(randomName2, randomColor2));
+                    .append(Component.text(" " + randomName2, randomColor2));
 
                 mob.customName(name);
                 mob.setCustomNameVisible(true);
