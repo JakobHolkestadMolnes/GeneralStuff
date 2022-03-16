@@ -1,5 +1,9 @@
 package no.dirik.GeneralStuff;
 
+import no.dirik.GeneralStuff.Commands.CommandSetPetNames;
+import no.dirik.GeneralStuff.Commands.CommandSit;
+import no.dirik.GeneralStuff.Commands.CommandStand;
+import no.dirik.GeneralStuff.Commands.CommandUwU;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**

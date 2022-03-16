@@ -1,9 +1,11 @@
-package no.dirik.GeneralStuff;
+package no.dirik.GeneralStuff.Commands;
 
 import static net.kyori.adventure.text.minimessage.tag.standard.StandardTags.color;
 
 import net.kyori.adventure.text.format.NamedTextColor;
 import net.kyori.adventure.text.format.TextColor;
+import no.dirik.GeneralStuff.GetTamedEntities;
+import no.dirik.GeneralStuff.RandomDogNames;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

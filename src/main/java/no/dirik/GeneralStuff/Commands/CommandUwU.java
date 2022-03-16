@@ -1,4 +1,4 @@
-package no.dirik.GeneralStuff;
+package no.dirik.GeneralStuff.Commands;
 
 import org.bukkit.Material;
 import org.bukkit.command.Command;

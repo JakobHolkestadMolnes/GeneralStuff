@@ -1,5 +1,6 @@
-package no.dirik.GeneralStuff;
+package no.dirik.GeneralStuff.Commands;
 
+import no.dirik.GeneralStuff.GetTamedEntities;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
