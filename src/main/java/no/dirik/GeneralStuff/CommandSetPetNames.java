@@ -1,5 +1,9 @@
 package no.dirik.GeneralStuff;
 
+import static net.kyori.adventure.text.minimessage.tag.standard.StandardTags.color;
+
+import net.kyori.adventure.text.format.NamedTextColor;
+import net.kyori.adventure.text.format.TextColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -31,6 +35,7 @@ public class CommandSetPetNames implements CommandExecutor {
                 String randomName = (names[(int) (Math.random() * names.length)]);
 
                 TextComponent name = Component.text(randomName);
+                name.color(TextColor.color(NamedTextColor.GOLD));
 
                 mob.customName(name);
                 mob.setCustomNameVisible(true);
