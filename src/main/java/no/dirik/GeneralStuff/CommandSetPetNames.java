@@ -34,8 +34,9 @@ public class CommandSetPetNames implements CommandExecutor {
             for (Entity mob : entities) {
                 String randomName = (names[(int) (Math.random() * names.length)]);
 
-                TextComponent name = Component.text(randomName);
-                name.color(TextColor.color(NamedTextColor.GOLD));
+                final TextComponent name = Component.text(randomName)
+                .color(TextColor.color(NamedTextColor.GOLD))
+                    .append(Component.text(randomName, NamedTextColor.GOLD));
 
                 mob.customName(name);
                 mob.setCustomNameVisible(true);
